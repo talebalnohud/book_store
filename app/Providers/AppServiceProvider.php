@@ -9,6 +9,8 @@ class AppServiceProvider extends ServiceProvider
     /**
      * Register any application services.
      */
+    public const HOME = '/admin/books';
+
     public function register(): void
     {
         //
